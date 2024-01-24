@@ -1,13 +1,29 @@
 # rustalpha
-A implementation in rust lang to generate all 3 character permutations with a alphabet,
+A implementation in rust lang to generate all 3 character permutations with a alphabet
 
-there is a variables named:
-character 
-lenght
+## Running
 
-change these to have different outputs, character is used for the character list for the permutation.
-Lenght is used to see what is the lenght of the string output.
-It outputs a output.txt with the permutations
+To deploy this project run
 
-to run (command line):
-rustc main.rs && ./main
+```bash
+  rustc main.rs
+  ./main
+```
+
+### Functionality
+there are variables named:
+
+per_characters 
+
+per_length
+
+Change these to have different outputs:
+
+`per_characters` is used for the character list for the permutation.
+
+`per_length` is used to see what is the lenght of the string output.
+
+output is `output.txt`
+
+## Authors
+- [@1cherry-trees](github.com/1cherry-trees)
